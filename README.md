@@ -18,7 +18,7 @@ Extractor script usage:
 5. The system.img will get extrcated from payload.bin 
 6. You will be presented 2 options - you can either extract all apps or you can extract specific apps that you want to work on.
 7. To extract all apps choose the first option
-![User_Choice_1](https://user-images.githubusercontent.com/49153415/148209249-28612539-34cb-4f6c-a35b-b90a62bda505.png)
+     ![User_Choice_1](https://user-images.githubusercontent.com/49153415/148209249-28612539-34cb-4f6c-a35b-b90a62bda505.png)
 
 8. To extract specific apps, choose option 2.
 9. It will display the total number of apps on the image.
@@ -28,7 +28,7 @@ Extractor script usage:
     BasicDreams.apk
     KeyChain.apk
 
-![User_Choice_2](https://user-images.githubusercontent.com/49153415/148209266-3bd739cc-9028-4c58-9110-a200a601dcbc.png)
+        ![User_Choice_2](https://user-images.githubusercontent.com/49153415/148209266-3bd739cc-9028-4c58-9110-a200a601dcbc.png)
 
 12. The extracted apps will be present in the output folder.
 
