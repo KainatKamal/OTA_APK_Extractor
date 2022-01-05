@@ -28,7 +28,7 @@ Extractor script usage:
     BasicDreams.apk
     KeyChain.apk
 
-        ![User_Choice_2](https://user-images.githubusercontent.com/49153415/148209266-3bd739cc-9028-4c58-9110-a200a601dcbc.png)
+    ![User_Choice_2](https://user-images.githubusercontent.com/49153415/148209266-3bd739cc-9028-4c58-9110-a200a601dcbc.png)
 
 12. The extracted apps will be present in the output folder.
 
