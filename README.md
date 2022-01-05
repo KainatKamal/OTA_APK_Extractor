@@ -17,7 +17,7 @@ Extractor script usage:
 4. When prompted enter the full path of the payload.bin
 5. The system.img will get extrcated from payload.bin 
 6. You will be presented 2 options - you can either extract all apps or you can extract specific apps that you want to work on.
-7. To extract all apps choose the first option
+7. To extract all apps choose option 1.
      ![User_Choice_1](https://user-images.githubusercontent.com/49153415/148209249-28612539-34cb-4f6c-a35b-b90a62bda505.png)
 
 8. To extract specific apps, choose option 2.
