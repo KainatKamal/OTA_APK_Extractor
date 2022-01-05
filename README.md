@@ -1,5 +1,5 @@
 # OTA_APK_Extractor
-This script utilises payload dumper(https://github.com/vm03/payload_dumper) and image extractor(https://ihax.io/mtk-extractor/) tools to extract the apps from the system.img of an android OTA file. It works on Windows OS.
+This script utilises [payload dumper](https://github.com/vm03/payload_dumper) and [image extractor](https://ihax.io/mtk-extractor/) tools to extract the apps from the system.img of an android OTA file. It works on Windows OS.
 
 ## Requirements:
 - Windows OS
@@ -13,20 +13,20 @@ Install the python modules using the requirements file:
 ## Extractor script usage:
 1. Extract the OTA file.
 2. Copy the full path of the payload.bin file present in the extracted OTA file, e.g. C:\root\ota 1\payload.bin
-3. Run the script - python Extractor.py
+3. Run the script - **python Extractor.py**
 4. When prompted enter the full path of the payload.bin
 5. The system.img will get extrcated from payload.bin 
 6. You will be presented 2 options - you can either extract all apps or you can extract specific apps that you want to work on.
-7. To extract all apps choose option 1.
+7. To extract all apps choose option **1**
      ![User_Choice_1](https://user-images.githubusercontent.com/49153415/148209249-28612539-34cb-4f6c-a35b-b90a62bda505.png)
 
-8. To extract specific apps, choose option 2.
+8. To extract specific apps, choose option **2**
 9. It will display the total number of apps on the image.
 10. Enter the number of apps that you want to extract.
-11. Enter the names of the apps that you want to extract. You have to enter full name of the APK e.g. 
-    CertInstaller.apk
-    BasicDreams.apk
-    KeyChain.apk
+11. Enter the names of the apps that you want to extract. You have to enter full name of the APK e.g. <br/>
+    CertInstaller.apk <br/>
+    BasicDreams.apk <br/>
+    KeyChain.apk <br/>
 
     ![User_Choice_2](https://user-images.githubusercontent.com/49153415/148209266-3bd739cc-9028-4c58-9110-a200a601dcbc.png)
 
