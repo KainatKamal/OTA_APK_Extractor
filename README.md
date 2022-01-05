@@ -6,7 +6,7 @@ This script utilises [payload dumper](https://github.com/vm03/payload_dumper) an
 - Python3 installed and added to environment variable
 - pip3 installed and added to environment variable
 - Python Modules -> protobuf==3.6.0, six==1.11.0, bsdiff4>=1.1.5
-- If you face issues, install Windows 10 SDK & C++ build tools
+- If you face issues, install Windows 10 SDK & C++ build tools. Download the build tools [here](https://visualstudio.microsoft.com/visual-cpp-build-tools/). Launch the Visual Studio Installer and select the Desktop development with C++ option. Install the default tool options for this. Upgrade the setuptools using the command **python -m pip install --upgrade setuptools** 
 
 Install the python modules using the requirements file:
 **python -m pip install -r requirements.txt --user**
