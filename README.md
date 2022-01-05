@@ -2,7 +2,7 @@
 This script utilises [payload dumper](https://github.com/vm03/payload_dumper) and [image extractor](https://ihax.io/mtk-extractor/) tools to extract the apps from the system.img of an android OTA file. It works on Windows OS.
 
 ## Requirements:
-- Windows OS
+- Windows 10
 - Python3 installed and added to environment variable
 - pip3 installed and added to environment variable
 - Python Modules -> protobuf==3.6.0, six==1.11.0, bsdiff4>=1.1.5
