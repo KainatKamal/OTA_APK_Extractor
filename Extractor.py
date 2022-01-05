@@ -41,12 +41,12 @@ def getUserChoice():
 	selected_option = input("Enter your choice: ")
 	selected_option = str(selected_option)
 	if selected_option == '1':
-		destination = current_working_directory+"\\Output\\All_Extracted_APKs"
+		destination = current_working_directory+"\Output\All_Extracted_APKs"
 		All_Extracted_APKs()
 		print("\nAPKs extracted & moved to \Output\All_Extracted_APKs folder . . .")
 	elif selected_option == '2':
 		execute_cmd("mkdir .\Output\Extracted_APKs_by_AppName","dummy")
-		destination = current_working_directory+"\\Output\\Extracted_APKs_by_AppName"
+		destination = current_working_directory+"\Output\Extracted_APKs_by_AppName"
 		Extract_APK_by_APKName()
 
 	else: exit ("\nEntered the wrong option! Exiting . . ")
@@ -68,7 +68,7 @@ def All_Extracted_APKs():
 def Extract_APK_by_APKName():
 	All_Extracted_APKs()
 	all_extracted_apps = os.listdir(all_extracted_apks)
-	destination = current_working_directory+"\\Output\\Extracted_APKs_by_AppName"
+	destination = current_working_directory+"\Output\Extracted_APKs_by_AppName"
 	apps_extracted=0
 	n = int(input("\nEnter the number of APKs you want to extract:"))
 	print("Enter the names of the APKs you want to extract:")
