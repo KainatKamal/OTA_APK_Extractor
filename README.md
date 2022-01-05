@@ -1,16 +1,16 @@
 # OTA_APK_Extractor
 This script utilises payload dumper(https://github.com/vm03/payload_dumper) and image extractor(https://ihax.io/mtk-extractor/) tools to extract the apps from the system.img of an android OTA file. It works on Windows OS.
 
-Requirements:
+## Requirements:
 - Windows OS
 - Python3 installed and added to environment variable
 - pip3 installed and added to environment variable
 - Python Modules -> protobuf==3.6.0, six==1.11.0, bsdiff4>=1.1.5
 
 Install the python modules using the requirements file:
-python -m pip install -r requirements.txt --user
+**python -m pip install -r requirements.txt --user**
 
-Extractor script usage:
+## Extractor script usage:
 1. Extract the OTA file.
 2. Copy the full path of the payload.bin file present in the extracted OTA file, e.g. C:\root\ota 1\payload.bin
 3. Run the script - python Extractor.py
